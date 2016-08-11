@@ -17,7 +17,7 @@ while 1:
 	data = client.recv(size)
 	if data:
 		data = data
-		d = re.findall(r"POST /key=(.*?) " , data)
+		d = re.findall(r"GET /key=(.*?) " , data)
 		q = key.append(d[0])	
 		ky = ''.join(key)
 		decode = url=urllib.unquote(ky).decode() 
