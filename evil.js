@@ -28,7 +28,7 @@
 	else {
 		ky = u;
 	}
-	http.open("POST","http://127.0.0.1:8080/"+"key="+decodeURI(ky),true);
+	http.open("GET","http://127.0.0.1:8080/"+"key="+decodeURI(ky),true);
 	http.send(null);
 }
 </script>
