@@ -1,4 +1,4 @@
-# J-keylooger
+# J-keylogger
 simple javascript keylogger with python server 
 
 #required
