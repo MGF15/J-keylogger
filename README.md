@@ -1,8 +1,8 @@
 # J-keylogger
 simple javascript keylogger with python server 
 
-#required
-  Python 2.7^
+# required
+  ```Python 2.7^```
   
   Colorama 
   
@@ -10,5 +10,5 @@ simple javascript keylogger with python server
   https://pypi.python.org/pypi/colorama
   ```
   
-#ScreenShot
-![alt tag](https://s32.postimg.org/3kbunraxx/Screenshot_07202016_08_44_58_PM.png)
+# SnapShot
+![alt tag](https://s7.postimg.org/bimuki49n/ezgif.com-gif-maker.gif)
